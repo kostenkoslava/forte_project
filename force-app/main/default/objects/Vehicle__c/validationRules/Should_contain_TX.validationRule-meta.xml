@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Should_contain_TX</fullName>
+    <active>true</active>
+    <description>Plate number should contain or start with  &quot;TX&quot;   (Texas plate)</description>
+    <errorConditionFormula>NOT(CONTAINS(LEFT(Plate_number__c , 2 ) , &quot;TX&quot;))</errorConditionFormula>
+    <errorDisplayField>Plate_number__c</errorDisplayField>
+    <errorMessage>Plate number should contain or start with  &quot;TX&quot;</errorMessage>
+</ValidationRule>

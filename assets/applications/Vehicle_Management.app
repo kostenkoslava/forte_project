@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>Pngtreewhite_vehicle_transportation</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Application for tracking company&apos;s vehicles maintaining.</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Vehicle Management</label>
+    <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>VP of Operations</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>VP of Operations</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Vehicle Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Vehicle Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Service  Operator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Service  Operator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Maintenance Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Maintenance Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Truck</recordType>
+        <type>Flexipage</type>
+        <profile>VP of Operations</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Truck</recordType>
+        <type>Flexipage</type>
+        <profile>VP of Operations</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Truck</recordType>
+        <type>Flexipage</type>
+        <profile>Vehicle Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Truck</recordType>
+        <type>Flexipage</type>
+        <profile>Vehicle Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Truck</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Truck</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Truck</recordType>
+        <type>Flexipage</type>
+        <profile>Service  Operator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Truck</recordType>
+        <type>Flexipage</type>
+        <profile>Service  Operator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Truck</recordType>
+        <type>Flexipage</type>
+        <profile>Maintenance Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Truck</recordType>
+        <type>Flexipage</type>
+        <profile>Maintenance Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Van</recordType>
+        <type>Flexipage</type>
+        <profile>VP of Operations</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Van</recordType>
+        <type>Flexipage</type>
+        <profile>VP of Operations</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Van</recordType>
+        <type>Flexipage</type>
+        <profile>Vehicle Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Van</recordType>
+        <type>Flexipage</type>
+        <profile>Vehicle Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Van</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Van</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Van</recordType>
+        <type>Flexipage</type>
+        <profile>Service  Operator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Van</recordType>
+        <type>Flexipage</type>
+        <profile>Service  Operator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Van</recordType>
+        <type>Flexipage</type>
+        <profile>Maintenance Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Van</recordType>
+        <type>Flexipage</type>
+        <profile>Maintenance Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Van1</recordType>
+        <type>Flexipage</type>
+        <profile>VP of Operations</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Van1</recordType>
+        <type>Flexipage</type>
+        <profile>VP of Operations</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Van1</recordType>
+        <type>Flexipage</type>
+        <profile>Vehicle Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Van1</recordType>
+        <type>Flexipage</type>
+        <profile>Vehicle Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Van1</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Van1</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Van1</recordType>
+        <type>Flexipage</type>
+        <profile>Service  Operator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Van1</recordType>
+        <type>Flexipage</type>
+        <profile>Service  Operator</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Van1</recordType>
+        <type>Flexipage</type>
+        <profile>Maintenance Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Vehicle_Main</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Vehicle__c</pageOrSobjectType>
+        <recordType>Vehicle__c.Van1</recordType>
+        <type>Flexipage</type>
+        <profile>Maintenance Manager</profile>
+    </profileActionOverrides>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>Vehicle__c</tabs>
+    <tabs>Service__c</tabs>
+    <tabs>Maintance__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Vehicle_Management_UtilityBar</utilityBar>
+</CustomApplication>
