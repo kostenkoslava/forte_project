@@ -31,6 +31,10 @@
                 <behavior>Edit</behavior>
                 <field>Last_Service__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Driver_Email__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
