@@ -1,0 +1,10 @@
+.slds-modal__container {
+    background: rgb(251 251 251);
+    height: 77%;
+}
+.slds-modal__header {
+    background: rgb(189 218 243);
+}
+.slds-modal__content {
+    background-color: rgb(189 218 243);
+}

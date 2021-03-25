@@ -1,0 +1,18 @@
+
+.current_filter {
+    color: rgb(8, 7, 7);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.25;
+    display: block;
+    cursor: pointer;
+    margin-left: 17px;
+}
+ 
+.current_filter:hover {
+    text-decoration: underline;
+}
+ 

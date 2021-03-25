@@ -17,7 +17,7 @@
                 <label>Maintained</label>
             </value>
             <value>
-                <fullName>Waiting _or_maintenance</fullName>
+                <fullName>Waiting _for_maintenance</fullName>
                 <default>true</default>
                 <label>Waiting for maintenance</label>
             </value>
