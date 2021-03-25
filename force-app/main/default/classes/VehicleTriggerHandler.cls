@@ -13,4 +13,4 @@ public class VehicleTriggerHandler {
         VehicleTriggerHelper.updateMaintenanceProcess();
         VehicleTriggerHelper.assignMaintenance();
     }
-}
+} 

@@ -35,5 +35,5 @@ public class VehicleTriggerService {
         Messaging.sendEmail(mails);
     }
     
-}
+} 
 
