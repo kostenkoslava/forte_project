@@ -5,7 +5,7 @@
             <template if:true={maintenances}>
                 <lightning-datatable
                     key-field='Id'
-                    data={maintenances.data}
+                    data={maintenances}
                     columns={columns}
                     onsave={handleSave}
                     draft-values={draftValues}
@@ -36,7 +36,7 @@
                     </span>
                 </div>
             </template>
-            <template if:false={maintenances.data}>
+            <template if:false={maintenances}>
                 <div class="slds-text-heading_medium">
                     Select vehicle to see maintenences
                 </div>

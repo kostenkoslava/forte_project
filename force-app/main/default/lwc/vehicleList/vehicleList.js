@@ -3,7 +3,7 @@ import getVehiclesByStatus from '@salesforce/apex/VM_Controller.getVehiclesBySta
 import NAME_FIELD from '@salesforce/schema/Vehicle__c.Name';
 import STATUS_FIELD from '@salesforce/schema/Vehicle__c.Status__c';
 import MODEL_FIELD from '@salesforce/schema/Vehicle__c.Model__c';
-import NUMBER_FIELD from '@salesforce/schema/Vehicle__c.Plate_Number__c';
+import NUMBER_FIELD from '@salesforce/schema/Vehicle__c.Plate_number__c';
 import LAST_DATE_FIELD from '@salesforce/schema/Vehicle__c.Last_Maintenance_Date__c';
 import NEXT_DATE_FIELD from '@salesforce/schema/Vehicle__c.Next_Maintenance_Date__c';
 

@@ -5,16 +5,21 @@
         <default>true</default>
         <visible>true</visible>
     </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__LightningBolt</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
     <classAccesses>
-        <apexClass>VehicleTriggerHandler</apexClass>
+        <apexClass>TestDataFactory</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>VehicleTriggerHandler_Test</apexClass>
+        <apexClass>VM_Controller</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>VehicleTriggerHelper</apexClass>
+        <apexClass>VM_Controller_Test</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
@@ -86,6 +91,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Vehicle__c.Last_Maintenance_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Vehicle__c.Last_Maintenance__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -195,6 +205,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Vehicle_Management</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Vehicle__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -202,6 +216,14 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ActivitiesAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AddDirectMessageMembers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AllowUniversalSearch</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -221,6 +243,14 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ChatterEditOwnPost</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterFileLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ChatterInternalUser</name>
     </userPermissions>
     <userPermissions>
@@ -230,6 +260,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ChatterOwnGroups</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ContentWorkspaces</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -277,11 +311,19 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>EnableCommunityAppLauncher</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>EnableNotifications</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>ExportReport</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>FieldServiceAccess</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -293,11 +335,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ListEmailSend</name>
+        <name>LightningExperienceUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageCases</name>
+        <name>ListEmailSend</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -305,7 +347,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageSolutions</name>
+        <name>MassInlineEdit</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>RemoveDirectMessageMembers</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -314,6 +360,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SelectFilesFromSalesforce</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SendExternalEmailAvailable</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

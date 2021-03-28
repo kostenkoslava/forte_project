@@ -2,13 +2,13 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
         <application>Vehicle_Management</application>
-        <default>true</default>
-        <visible>true</visible>
+        <default>false</default>
+        <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__LightningBolt</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
         <apexClass>TestDataFactory</apexClass>
@@ -26,32 +26,32 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Maintance__c.Maintenance_Report__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Maintance__c.Maintenance_due_date__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Maintance__c.Maintenance_start_date__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Maintance__c.Maintenance_status__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Maintance__c.Scheduled_maintenance_date__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Service__c.Address__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -59,84 +59,84 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Service__c.Geolocation__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Service__c.Total_maintenance__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Vehicle__c.Current_Milage__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Vehicle__c.Driver_Email__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Vehicle__c.Driver_Phone__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Vehicle__c.Driver__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Vehicle__c.Last_Maintenance_Date__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Vehicle__c.Last_Maintenance__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Vehicle__c.Last_Service__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Vehicle__c.Model__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Vehicle__c.Next_Maintenance_Date__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Vehicle__c.Plate_number__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Vehicle__c.Status__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Vehicle__c.Vehicle_Manager__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Vehicle__c.Vehicle_Weight__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Vehicle__c.Year__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
         <layout>Maintance__c-Maintenance Layout</layout>
@@ -152,57 +152,30 @@
         <recordType>Vehicle__c.Truck</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Vehicle__c-Van</layout>
+        <layout>Vehicle__c-Truck</layout>
         <recordType>Vehicle__c.Van</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Vehicle__c-Van</layout>
+        <layout>Vehicle__c-Truck</layout>
         <recordType>Vehicle__c.Van1</recordType>
     </layoutAssignments>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Maintance__c</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Service__c</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Vehicle__c</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Vehicle__c.Truck</recordType>
-        <visible>true</visible>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>true</default>
+        <default>false</default>
         <recordType>Vehicle__c.Van</recordType>
-        <visible>true</visible>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Maintance__c</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Service__c</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Vehicle_Management</tab>
@@ -210,20 +183,12 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Vehicle__c</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
-    <userLicense>Salesforce Platform</userLicense>
+    <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
         <name>ActivitiesAccess</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>AddDirectMessageMembers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>AllowUniversalSearch</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -243,14 +208,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ChatterEditOwnPost</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterFileLink</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ChatterInternalUser</name>
     </userPermissions>
     <userPermissions>
@@ -263,7 +220,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ContentWorkspaces</name>
+        <name>ConvertLeads</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -279,15 +236,15 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>CustomMobileAppsAccess</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>DistributeFromPersWksp</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>EditEvent</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditOppLineItemUnitPrice</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -307,10 +264,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>EnableCommunityAppLauncher</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>EnableNotifications</name>
     </userPermissions>
     <userPermissions>
@@ -323,7 +276,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>LightningExperienceUser</name>
+        <name>LightningConsoleAllowedForUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -331,11 +284,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>MassInlineEdit</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>RemoveDirectMessageMembers</name>
+        <name>ManageEncryptionKeys</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -347,7 +296,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>SendExternalEmailAvailable</name>
+        <name>SendSitRequests</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -355,7 +304,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>SubscribeToLightningDashboards</name>
+        <name>SubmitMacrosAllowed</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SubscribeToLightningReports</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -364,6 +317,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>UseWebLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewEventLogFiles</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

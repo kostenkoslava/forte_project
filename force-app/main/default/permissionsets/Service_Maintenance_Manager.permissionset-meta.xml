@@ -76,6 +76,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Vehicle__c.Last_Maintenance__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Vehicle__c.Last_Service__c</field>
         <readable>false</readable>
     </fieldPermissions>

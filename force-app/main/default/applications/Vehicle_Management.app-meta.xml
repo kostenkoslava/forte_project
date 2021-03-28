@@ -381,8 +381,7 @@
         <type>Flexipage</type>
         <profile>Maintenance Manager</profile>
     </profileActionOverrides>
-    <tabs>standard-Contact</tabs>
-    <tabs>standard-Dashboard</tabs>
+    <tabs>Vehicle_Management</tabs>
     <tabs>Vehicle__c</tabs>
     <tabs>Service__c</tabs>
     <tabs>Maintance__c</tabs>

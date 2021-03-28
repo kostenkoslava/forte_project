@@ -17,6 +17,7 @@ const COLUMNS = [
     { label: 'Start date', fieldName: START_DATE_FIELD.fieldApiName, type: 'date', editable: true },
     { label: 'Due date', fieldName: DUE_DATE_FIELD.fieldApiName, type: 'date', editable: true },
     { label: 'Report', fieldName: REPORT_FIELD.fieldApiName, type: 'text', editable: true },
+    { label: 'Service', fieldName: 'serv'}
 ];
 
 export default class MaintenanceList extends LightningElement {
@@ -25,13 +26,27 @@ export default class MaintenanceList extends LightningElement {
     @track recordsCount = 0;
     @track isModalOpen = false;
     @track maintRecord = MAINTENANCE_OBJECT;
+    @track maintenances;
+    @track error;
     fields = {}
     isDeleteButtonDisabled = true;
     selection = [];
     _vehicleId = undefined;
     
     @wire(getRelatedMaintenances, { vehicleId: '$_vehicleId'})
-    maintenances;
+    wiredRecord({data, error}) {
+        if(data) {
+            const newData = data.map((item) => 
+            Object.assign({}, item, {serv: item.Service__r.Name})
+            )
+            this.maintenances = newData;
+        }
+        if(error) {
+            this.error = error;
+        }
+    }
+    
+    
 
     set vehicleId(value) {
         this._vehicleId = value;
@@ -70,6 +85,7 @@ export default class MaintenanceList extends LightningElement {
     }
 
     rowSelection(evt) {
+        console.log(this.maintenances, NAME_FIELD.fieldApiName)
         this.recordsCount = evt.detail.selectedRows.length;
         const selectedRecords = [];
         evt.detail.selectedRows.forEach(row => selectedRecords.push(row.Id));
@@ -121,8 +137,8 @@ export default class MaintenanceList extends LightningElement {
     }
     createRecord() {
         this.maintRecord.Vehicle__c = this._vehicleId;
-        if(this.maintenances.data.length > 0) {
-            this.maintRecord.Service__c = this.maintenances.data[this.maintenances.data.length - 1].Service__c;
+        if(this.maintenances.length > 0) {
+            this.maintRecord.Service__c = this.maintenances[this.maintenances.length - 1].Service__c;
         } else {
             this.maintRecord.Service__c = null;
         }
